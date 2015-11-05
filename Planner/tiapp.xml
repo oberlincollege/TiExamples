@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>edu.oberlin.CS321.rms.planner</id>
+    <name>Planner</name>
+    <version>1.0</version>
+    <publisher>rms</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2013 by rms</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>1d96c6e1-6ff7-481a-9333-a8c5c874d809</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>5.0.2.GA</sdk-version>
+    <property name="appc-app-id" type="string">5620251594ad6408124ebddc</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">Jawg401DnpZp4jMWPiETml3JcVlHk7Py</property>
+    <property name="acs-oauth-key-development" type="string">Z03VUEeemqdX6apWYNz0zCXTIET5dNFC</property>
+    <property name="acs-api-key-development" type="string">Tn1QIuj0slXks5sE7lYt9YKqw7o4ieYv</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">pRNwkU1ygLqFJwS7q7</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">H5tO47v7k6vbJqO1tOKzldquxcZLxY3k</property>
+    <property name="acs-oauth-key-production" type="string">9JELhhb06iPga0icnJktm1ADRkBEh4ob</property>
+    <property name="acs-api-key-production" type="string">RzgOoNiG5YfVs1S9fRq8q7SOctJ2YgZJ</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">HSsWi59rwnjzggFWCt</property>
+    <property name="appc-org-id" type="string">100034862</property>
+    <property name="appc-creator-user-id" type="string">64d84f4f-b786-434e-8591-1f8609c040e3</property>
+</ti:app>
