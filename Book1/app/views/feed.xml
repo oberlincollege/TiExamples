@@ -1,0 +1,11 @@
+<!-- feed.xml -->
+<Alloy>
+   <Tab id="feedTab" title="Feed">
+      <Window id="feedWindow" title="Feed">
+		  	<RightNavButton platform="ios">
+            	<Button id="cameraButton">Camera</Button>
+         	</RightNavButton>
+         	<TableView id="feedTable"></TableView>      	
+      </Window>
+   </Tab>
+</Alloy>

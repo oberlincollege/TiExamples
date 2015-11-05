@@ -1,0 +1,8 @@
+<!-- friends.xml -->
+<Alloy>
+   <Tab title="Friends">
+      <Window title="Friends">
+          <Label>This is a Friends tab</Label>
+      </Window>
+   </Tab>
+</Alloy>
